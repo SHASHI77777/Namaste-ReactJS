@@ -14,15 +14,15 @@ const parent = React.createElement(
      React.createElement(
      "div",
        { id: "child" },
-        [React.createElement("h1", {},"i'm am h1 tag"),
-        React.createElement("h1", {},"i'm am h2 tag"),
+        [React.createElement("h1", {id: "heading" },"i'm am h1 tag"),
+        React.createElement("h1", {id: "heading" },"i'm am h2 tag"),
     ]),
         React.createElement(
         "div",
           { id: "child2" },
            [
-            React.createElement("h1", {},"i'm am h3 tag"),
-           React.createElement("h1", {},"i'm am h4 tag"),
+            React.createElement("h1", {id: "heading" },"i'm am h3 tag"),
+           React.createElement("h1", {id: "heading" },"i'm am h4 tag"),
        ]),
     ]);
  
